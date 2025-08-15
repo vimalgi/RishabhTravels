@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RJTravels</title>
+        <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="asset/css/slick.css">
+        <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+        <script type="text/javascript" src="asset/js/jquery.min.js"></script>
+        <script type="text/javascript" src="asset/js/slick.min.js"></script>
+    </head>
+    <style></style>
+    <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark py-4">
+    <div class="container">
+        <a class="navbar-brand m-0" href="#">
+            <img src="asset/image/logo.png" alt="">
+        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+            
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item mx-3 dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="row dropdown-menu mt-0">
+                        <div class="service_menu">
+                            <li class="wrap1">
+                                <a class="dropdown-item px-3" href="services.html">Ahmedabad to Agra</a>
+                                <a class="dropdown-item px-3" href="services_ahemtodwarka.html">Ahmedabad to Dwarka</a>
+                                <a class="dropdown-item px-3" href="services_ahemtosomnath.html">Ahmedabad to Somnath</a>
+                                <a class="dropdown-item px-3" href="services_ahemtokevadia.html">Ahmedabad to Kevadia</a>
+                            </li>
+                            <li class="wrap2">
+                                <a class="dropdown-item px-3" href="services_ahemtosurat.html">Ahmedabad to Surat</a>
+                                <a class="dropdown-item px-3" href="services_ahemtobhuj.html">Ahmedabad to Bhuj</a>
+                                <a class="dropdown-item px-3" href="services_ahemtomountabu.html">Ahmedabad to Mount Abu</a>
+                                <a class="dropdown-item px-3" href="services_ahemtojunagadh.html">Ahmedabad to Junagadh</a>
+                            </li>
+                            <li class="wrap3">
+                                <a class="dropdown-item px-3" href="services_ahemtopalitana.html">Ahmedabad to Palitana</a>
+                                <a class="dropdown-item px-3" href="services_ahemtodiu.html">Ahmedabad to Diu</a>
+                                <a class="dropdown-item px-3" href="services_ahemtojamnagar.html">Surat to Jamnagar</a>
+                                <a class="dropdown-item px-3" href="services_ahemtobakor.html">Ahmedabad to Dakor</a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <a href="#" class="btn text-capitalize fw-bold w-auto m-0">
+                Book Your Cab
+            </a>
+        </div>
+    </div>
+</nav>
+
+<div class="get_in_touch mt-5 pt-4">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-10">
+                <h2 class="mt-4"> Contact Us – RJ Travels</h2>
+                <span class="text-black fs-4 mt-3 d-inline-block">Looking to book a cab or need assistance with your travel plans? We're here to help 24x7! Whether it’s a one-way trip, round journey, or custom itinerary, RJ Travels ensures smooth, safe, and affordable rides across Gujarat and beyond.</span>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook mb-4"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram mb-4"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <form class="py-5 mt-5">
+                <div class="row text-start text-white">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control mb-5" aria-label="First name" placeholder="Name">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="email" class="form-control mb-5" id="inputEmail4" placeholder="Email Address">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control mb-5" aria-label="phone" placeholder="phone Number (optional)">
+                    </div>
+                </div>
+                   <div class="row text-start text-white">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control mb-5" aria-label="First name" placeholder="Pickup Location">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="email" class="form-control mb-5" id="inputEmail4" placeholder="Drop Location:">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime" class="form-control mb-5" aria-label="phone" placeholder="Travel Date & Time:">
+                    </div>
+                </div>
+                    <div class="row text-start text-white">
+                        <div class="form-floating text-white">
+                            <textarea class="form-control" id="floatingTextarea2" style="height: 100px" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                <a href="#" class="btn text-capitalize fw-bold w-auto m-0 px-4 mt-3">Leave us a Message <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                <path d="M5 12.5H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5.5L19 12.5L12 19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact_address">
+    <div class="container py-5">
+        <div class="row"> 
+            <div class="col-md-6 text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d92749.21126619284!2d72.53226500077535!3d23.199941144938798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x395c2971f1ff02b9%3A0x7b21758408c996c2!2sSAYONA%20HEIGHTS%2C%20KH%20Rd%2C%20Vasana%20Hadmatia%2C%20Gandhinagar%2C%20Gujarat%20382423!3m2!1d23.199965199999998!2d72.6147074!5e1!3m2!1sen!2sin!4v1753868665989!5m2!1sen!2sin" width="440" height="665" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6">
+                <h6 class="add_line position-relative mt-5 mb-3">Office Address</h6>
+                <h6 class="pt-5 pb-3"><a class="text-black" href="mailto:support@rjtravels.in">support@rjtravels.in</a></h6>
+                <h6 class="pb-4"><a class="text-black" href="http://www.rjtravels.in">www.rjtravels.in</a></h6>
+                <p class="text-black">RJ Travels <br>
+                Shayana Heights, C-107, KH Road, <br>
+                Near Sargasan Cross Road, <br>
+                Gandhinagar, Gujarat – 382015, India</p>
+
+
+                <h6 class="add_line position-relative mt-5 mb-3">Business Hours</h6>
+                <h6 class="pt-5 pb-4"><a class="text-black" href="tel:+91 70461 62162">+91 70461 62162</a></h6>
+                <p class="text-black">Available 24 hours, <br> 7 days a week – including <br> weekends and holidays!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="home_banner daley_to_book rounded-0 mt-5" style="background-image: url('asset/image/daley_to_book.png');background-repeat: no-repeat;background-size: cover;">
+    <div class="container mt-4">
+        <div class="row">
+            <h2 class="">
+              Why Delay Your Ride? <br> Let’s Talk! 
+            </h2>
+            <ul class="d-flex mt-4">
+                <li class="mb-3 d-flex ms-0 me-2">
+                   <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+  <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><img src="" alt=""><p class="me-0 text-black ms-2">Free  Quotes</p>
+                </li>
+                <li class="mb-3 d-flex m-0">
+                     <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+  <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><img src="" alt=""><p class="me-0 text-black ms-2">100% Commitment-Free Booking</p>
+                </li>
+            </ul>
+            <a href="#" class="btn text-capitalize fw-bold w-auto m-0 bg-black text-white border-0 ps-4 pe-4"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"></path>
+                </svg>Book you cab</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer_top pt-5 position-relative" style="background-color: #1B1B1B;">
+    <img src="asset/image/footer_car_icon.png" alt="" class="footer_car_icon">
+    <div class="container pt-5">
+        <div class="row text-white text-start">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <a href="#" class="mb-3">
+                    <img src="asset/image/footer_logo.png" alt="">
+                </a>
+                <p class="mb-3 mt-4 fs-5">Empowering Your Travel Plans with Reliable, Comfortable, and Affordable Cabs – Every Mile of the Way.</p>
+                <ul class="d-flex align-items-center head_top_social">
+                    <li class="me-2 ms-0">
+                        <a href="#">
+                            <img src="asset/image/facebook.png" alt="">
+                        </a>
+                    </li>
+                        <li class="me-2 ms-0">
+                        <a href="#">
+                            <img src="asset/image/linkedin.png" alt="">
+                        </a>
+                    </li>
+                    <li class="me-2 ms-0">
+                        <a href="#">
+                            <img src="asset/image/instagram.png" alt="">
+                        </a>
+                    </li>
+                    <li class="ms-0">
+                        <a href="#">
+                            <img src="asset/image/twitter.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 fw-bold text-white">Quick Links</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">About Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 desk_blog">
+                <h5 class="mb-3 fw-bold text-white">Blogs</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Airport Taxi Booking Guide</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Pet-Friendly Cab Services</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Tips for Outstation Taxi Travel</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Benefits of Hourly Car Rentals</a>
+                    </li>
+                </ul>
+            </div>
+             <div class="col-lg-3 col-md-6 mb-4 mob_types">
+                <h5 class="mb-3 fw-bold text-white">Types</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Car Rental</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Airport Taxi</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Local Sightseeing</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Innova</a>
+                    </li>
+                     <li class="mb-2">
+                        <a href="">Tempo Traveller</a>
+                    </li>
+                     <li class="mb-2">
+                        <a href="">Pet Friendly Cab</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 contacter contacter_desk">
+                <h5 class="mb-3 fw-bold text-white">Reach Us</h5>
+                <ul class="reach_us">
+                    <li class="mb-3 d-flex align-items-center position-relative">
+                        <p>
+                            Shayana Heights, C-107, KH Rd, Nr. Sargasan Cross Road, Gandhinagar, Gujarat – 382015
+                        </p>
+                    </li>
+                    <li class="mb-2 position-relative">
+                        <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
+                    </li>
+                    <li class="mb-3 position-relative">
+                        <a href="#">Whatsapp: +91 70461 62162</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <div class="row text-white text-start pt-5">
+                <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 fw-bold text-white">Cab from Delhi</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Delhi to Agra</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Delhi to Jaipur </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Delhi to Chandigarh</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Delhi to Amritsar</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 fw-bold text-white">Cab from Bangalore</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Bangalore to Mysore</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Bangalore to Coorg</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Bangalore to Ooty</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Bangalore to Pondicherry</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 fw-bold text-white">Cab from Mumbai</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Mumbai to Shirdi</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Mumbai to Shani Shingnapur</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Mumbai to Mahabaleshwar</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Mumbai to Nashik</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 fw-bold text-white">Cab from Chennai</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Chennai to Bangalore</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Chennai to Pondicherry </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Chennai to Tirupati </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Chennai to Mahabalipuram</a>
+                    </li>
+                    
+                </ul>
+            </div>
+              <div class="col-lg-3 col-md-6 mb-4 contacter contacter_mob">
+                <h5 class="mb-3 fw-bold text-white">Reach Us</h5>
+                           <ul class="reach_us">
+                    <li class="mb-3 d-flex align-items-center position-relative">
+                        <p>
+                            Shayana Heights, C-107, KH Rd, Nr. Sargasan Cross Road, Gandhinagar, Gujarat – 382015
+                        </p>
+                    </li>
+                    <li class="mb-2 position-relative">
+                        <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
+                    </li>
+                    <li class="mb-3 position-relative">
+                        <a href="#">Whatsapp: +91 70461 62162</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+</div>
+<div class="copyrights pt-5" style="background-color: #1B1B1B;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-3 text-center">
+                <p class="mb-0 text-white">© 2025 Rj Travels. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container position-relative">
+    <div class="row">
+        <div class="whats_right_icon">
+           <a href="https://wa.me/917046162162"><img src="asset/image/whats.png" alt=""></a>
+        </div>
+    </div>
+</div>
+
+        <script type="text/javascript" src="asset/js/popper.min.js"></script>
+        <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+        <script src="asset/js/custom.js"></script>
+    </body>
+</html>
