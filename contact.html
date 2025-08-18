@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RishabhTravels</title>
+        <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="asset/css/slick.css">
+        <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+        <script type="text/javascript" src="asset/js/jquery.min.js"></script>
+        <script type="text/javascript" src="asset/js/slick.min.js"></script>
+    </head>
+    <style></style>
+    <body style="background: linear-gradient(0deg, #F8F9FA 0%, #F8F9FA 100%), #FFF;">
+
+<nav class="navbar navbar-expand-lg navbar-dark py-4 bg-white">
+    <div class="container">
+        <a class="navbar-brand m-0" href="#">
+            <img src="asset/image/logo.png" alt="">
+        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 me-0">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+            
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                 <li class="nav-item mx-3">
+                    <a class="nav-link" href="routes.html">Routes</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="contact_address">
+    <div class="container py-5">
+        <div class="row"> 
+            <div class="col-md-6 text-center">
+                <figure class="p-5"  style="background-image: url('asset/image/contact.png');background-repeat: no-repeat;background-size: cover;border-radius: 18px;">
+                    <h1 class="fonts_plus text-white">Let’s Get <br> You Moving</h1>
+                    <p class="fonts_plus text-white con_first_para pt-4">Have questions or need a <br> cab urgently?</p>
+                    <p class="fonts_plus text-white con_first_sec pb-5">Call or WhatsApp now<br>to book your ride.</p>
+                    <ul>
+                        <li class="mb-3 d-inline-block me-3">
+                            <a href="#" class="border-0 px-4 btn fw-bold w-auto m-0 bg-white text-black book_by_whatsapp fonts_plus py-2">    
+                                <svg class="pe-2" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                <path d="M10.6783 33.0649L11.2902 33.3709C13.84 34.9007 16.6957 35.6146 19.5514 35.6146C28.5265 35.6146 35.8698 28.2714 35.8698 19.2963C35.8698 15.0127 34.1359 10.8311 31.0763 7.77144C28.0166 4.71175 23.937 2.97792 19.5514 2.97792C10.5763 2.97792 3.23304 10.3212 3.33503 19.3983C3.33503 22.458 4.25294 25.4157 5.78279 27.9654L6.19075 28.5773L4.55891 34.5947L10.6783 33.0649Z" fill="#1177FE"/>
+                                <path d="M32.8099 6.13934C29.3423 2.5697 24.5488 0.631897 19.6533 0.631897C9.25031 0.631897 0.887146 9.09705 0.989136 19.398C0.989136 22.6617 1.90704 25.8234 3.43689 28.6791L0.785156 38.3681L10.6782 35.8184C13.4319 37.3482 16.4916 38.0621 19.5513 38.0621C29.8522 38.0621 38.2154 29.597 38.2154 19.296C38.2154 14.2985 36.2776 9.607 32.8099 6.13934ZM19.6533 34.9005C16.8995 34.9005 14.1458 34.1865 11.8001 32.7587L11.1881 32.4527L5.27271 33.9825L6.80255 28.1691L6.39459 27.5572C1.90704 20.3159 4.04883 10.7289 11.3921 6.24133C18.7354 1.75378 28.2204 3.89557 32.708 11.2388C37.1955 18.5821 35.0537 28.0671 27.7105 32.5547C25.3647 34.0845 22.509 34.9005 19.6533 34.9005ZM28.6284 23.5796L27.5065 23.0696C27.5065 23.0696 25.8746 22.3557 24.8547 21.8458C24.7528 21.8458 24.6508 21.7438 24.5488 21.7438C24.2428 21.7438 24.0388 21.8458 23.8348 21.9478C23.8348 21.9478 23.7329 22.0497 22.305 23.6816C22.203 23.8856 21.999 23.9876 21.795 23.9876H21.6931C21.5911 23.9876 21.3871 23.8856 21.2851 23.7836L20.7751 23.5796C19.6533 23.0696 18.6334 22.4577 17.8174 21.6418C17.6135 21.4378 17.3075 21.2338 17.1035 21.0298C16.3896 20.3159 15.6757 19.5 15.1657 18.5821L15.0637 18.3781C14.9617 18.2761 14.9617 18.1741 14.8597 17.9702C14.8597 17.7662 14.8597 17.5622 14.9617 17.4602C14.9617 17.4602 15.3697 16.9503 15.6757 16.6443C15.8796 16.4403 15.9816 16.1343 16.1856 15.9304C16.3896 15.6244 16.4916 15.2164 16.3896 14.9105C16.2876 14.4005 15.0637 11.6468 14.7578 11.0349C14.5538 10.7289 14.3498 10.6269 14.0438 10.5249H12.9219C12.718 10.5249 12.514 10.6269 12.31 10.6269L12.208 10.7289C12.004 10.8309 11.8001 11.0349 11.5961 11.1368C11.3921 11.3408 11.2901 11.5448 11.0861 11.7488C10.3722 12.6667 9.96423 13.7886 9.96423 14.9105C9.96423 15.7264 10.1682 16.5423 10.4742 17.2562L10.5762 17.5622C11.4941 19.5 12.718 21.2338 14.3498 22.7637L14.7578 23.1716C15.0637 23.4776 15.3697 23.6816 15.5737 23.9876C17.7155 25.8234 20.1632 27.1492 22.9169 27.8632C23.2229 27.9652 23.6309 27.9652 23.9368 28.0671H24.9567C25.4667 28.0671 26.0786 27.8632 26.4866 27.6592C26.7925 27.4552 26.9965 27.4552 27.2005 27.2512L27.4045 27.0472C27.6085 26.8433 27.8124 26.7413 28.0164 26.5373C28.2204 26.3333 28.4244 26.1293 28.5264 25.9254C28.7304 25.5174 28.8323 25.0074 28.9343 24.4975V23.7836C28.9343 23.7836 28.8323 23.6816 28.6284 23.5796Z" fill="white"/>
+                                </svg>
+                                WhatsApp Now</a>
+                        </li>
+                        <li class="mb-3 d-inline-block">
+                            <a href="#" class="border-0 btn fw-bold w-auto m-0 bg-white text-black book_by_whatsapp fonts_plus py-2">
+                                <svg class="pe-2" width="39" height="39" viewBox="0 0 25 25" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.32821 1.2658C3.59067 1.00374 3.90583 0.800442 4.2528 0.66939C4.59977 0.538337 4.97064 0.482521 5.34082 0.505639C5.71099 0.528757 6.07203 0.630283 6.4 0.803487C6.72797 0.976691 7.01539 1.21762 7.24321 1.5103L9.93571 4.96931C10.4292 5.6038 10.6032 6.4303 10.4082 7.2103L9.58771 10.4953C9.54529 10.6654 9.54758 10.8437 9.59436 11.0127C9.64114 11.1817 9.73083 11.3357 9.85471 11.4598L13.5402 15.1453C13.6645 15.2694 13.8187 15.3593 13.988 15.4061C14.1573 15.4529 14.3358 15.455 14.5062 15.4123L17.7897 14.5918C18.1746 14.4956 18.5764 14.4881 18.9646 14.5699C19.3529 14.6518 19.7174 14.8208 20.0307 15.0643L23.4897 17.7553C24.7332 18.7228 24.8472 20.5603 23.7342 21.6718L22.1832 23.2228C21.0732 24.3328 19.4142 24.8203 17.8677 24.2758C13.9095 22.8831 10.3156 20.6171 7.35271 17.6458C4.38164 14.6833 2.11562 11.09 0.722706 7.1323C0.179706 5.5873 0.667206 3.9268 1.77721 2.8168L3.32821 1.2658Z" fill="#1177FE"/>
+                                </svg>Call Now
+                            </a>
+                        </li>
+                    </ul>
+                      <a href="#" class="border-0 py-2 px-4 btn fw-bold w-auto m-0 bg-white text-black book_by_whatsapp fonts_plus mb-3">
+                       <svg class="pe-3" xmlns="http://www.w3.org/2000/svg" width="43" height="38" viewBox="0 0 29 23" fill="none">
+                        <path d="M28.2227 11.5L0.776677 22.9414L8.49717 11.5L0.776678 0.0586231L28.2227 11.5Z" fill="#1177FE"/>
+                        </svg>Book Online
+                    </a> <br>
+
+                    <a href="mailto:sauldesign@gmail.com" class="pp pt-4 d-inline-block fonts_plus text-white">
+                    <svg class="pe-3" width="35" height="34" viewBox="0 0 25 24" fill="none">
+                    <g clip-path="url(#clip0_624_539)">
+                        <path d="M0.575 5.3325C0.726227 4.66986 1.09798 4.07822 1.62938 3.65446C2.16078 3.23071 2.82033 2.99995 3.5 3H21.5C22.1797 2.99995 22.8392 3.23071 23.3706 3.65446C23.902 4.07822 24.2738 4.66986 24.425 5.3325L12.5 12.621L0.575 5.3325ZM0.5 7.0455V17.7015L9.2045 12.3645L0.5 7.0455ZM10.6415 13.245L0.7865 19.2855C1.02999 19.7989 1.41429 20.2326 1.89467 20.5362C2.37505 20.8397 2.93176 21.0005 3.5 21H21.5C22.0681 21.0001 22.6246 20.8389 23.1048 20.5351C23.5849 20.2313 23.9688 19.7975 24.212 19.284L14.357 13.2435L12.5 14.379L10.6415 13.2435V13.245ZM15.7955 12.366L24.5 17.7015V7.0455L15.7955 12.3645V12.366Z" fill="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_624_539">
+                        <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                    </defs>
+                    </svg>SaulDesign@gmail.com</a>
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <form class="mt-2 p-4">
+                    <div class="row text-start text-white">
+                        <div class="col-md-6">
+                            <label class="fonts_plus mb-2">First Name</label>
+                            <input type="text" class="form-control mb-5" aria-label="First name" placeholder="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="fonts_plus mb-2">Last Name</label>
+                            <input type="text" class="form-control mb-5" aria-label="Lastt name" placeholder="">
+                        </div>
+                    </div>  
+                    <div class="row text-start text-white">
+                        <div class="col-md-6">
+                            <label class="fonts_plus mb-2">Mobile Number</label>
+                            <input type="text" class="form-control mb-5" aria-label="phone" placeholder="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="fonts_plus mb-2">Email</label>
+                            <input type="email" class="form-control mb-5" id="inputEmail4" placeholder="">
+                        </div>
+                    </div>
+                    <a href="#" class="btn text-capitalize fw-bold w-auto m-0 px-4 banner_btn"><svg class="pe-3" width="40" height="31" viewBox="0 0 27 21" fill="none">
+                    <path d="M26.0144 1.6598C26.1095 1.54796 26.1697 1.41067 26.1875 1.26495C26.2053 1.11923 26.18 0.971478 26.1146 0.840021C26.0492 0.708564 25.9467 0.599181 25.8198 0.525431C25.6928 0.451681 25.5471 0.416809 25.4005 0.425136L1.93651 1.75295L1.93509 1.75248L1.20641 1.79259C1.06837 1.80026 0.935139 1.84595 0.821432 1.92459C0.707725 2.00324 0.617969 2.11178 0.562078 2.23823C0.506187 2.36468 0.486336 2.50413 0.504719 2.64115C0.523102 2.77818 0.579002 2.90746 0.666246 3.01471L1.12509 3.5802L1.12556 3.58352L6.71067 10.4878L8.84442 19.108L8.84631 19.1118L9.02023 19.819C9.05345 19.9529 9.12299 20.0751 9.22118 20.1721C9.31937 20.269 9.44241 20.337 9.57676 20.3686C9.71111 20.4001 9.85156 20.394 9.98264 20.3508C10.1137 20.3077 10.2304 20.2292 10.3197 20.124L26.0144 1.6598ZM22.5054 3.472L8.27065 10.5496L8.12633 9.9663C8.09993 9.85929 8.05027 9.75941 7.98089 9.67378L7.60293 9.20665L21.8377 2.12906L23.7377 2.02185L22.5068 3.47248L22.5054 3.472Z" fill="#EEEEEE"></path>
+                    </svg>Send Message
+                    </a>
+                </form>
+                <div class="form_box mt-4 p-4">
+                    <a class="text-black mb-5 d-inline-block fonts_plus pt-2" href="tel:+91 123456791"><svg class="me-3" width="24" height="24" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_624_623)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82821 1.26648C3.09067 1.00441 3.40583 0.801114 3.7528 0.670061C4.09977 0.539009 4.47064 0.483192 4.84082 0.506311C5.21099 0.529429 5.57203 0.630954 5.9 0.804158C6.22797 0.977362 6.51539 1.21829 6.74321 1.51098L9.43571 4.96998C9.92921 5.60448 10.1032 6.43098 9.90821 7.21098L9.08771 10.496C9.04529 10.6661 9.04758 10.8443 9.09436 11.0133C9.14114 11.1823 9.23083 11.3364 9.35471 11.4605L13.0402 15.146C13.1645 15.2701 13.3187 15.3599 13.488 15.4067C13.6573 15.4535 13.8358 15.4557 14.0062 15.413L17.2897 14.5925C17.6746 14.4962 18.0764 14.4888 18.4646 14.5706C18.8529 14.6525 19.2174 14.8215 19.5307 15.065L22.9897 17.756C24.2332 18.7235 24.3472 20.561 23.2342 21.6725L21.6832 23.2235C20.5732 24.3335 18.9142 24.821 17.3677 24.2765C13.4095 22.8838 9.81561 20.6177 6.85271 17.6465C3.88164 14.684 1.61562 11.0907 0.222706 7.13298C-0.320294 5.58798 0.167206 3.92748 1.27721 2.81748L2.82821 1.26648Z" fill="#1177FE"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_624_623">
+                        <rect width="24" height="24" fill="white" transform="translate(0 0.5)"></rect>
+                        </clipPath>
+                    </defs>
+                    </svg> +91 123456791</a>
+                    <p class="text-black fonts_plus mb-5"><svg class="me-3" width="23" height="28" viewBox="0 0 24 28" fill="none">
+                    <path d="M11.9793 14C12.8028 14 13.5081 13.7256 14.0951 13.1768C14.6811 12.6289 14.9741 11.97 14.9741 11.2C14.9741 10.43 14.6811 9.7706 14.0951 9.2218C13.5081 8.67393 12.8028 8.4 11.9793 8.4C11.1557 8.4 10.4509 8.67393 9.86493 9.2218C9.27795 9.7706 8.98446 10.43 8.98446 11.2C8.98446 11.97 9.27795 12.6289 9.86493 13.1768C10.4509 13.7256 11.1557 14 11.9793 14ZM11.9793 28C7.96123 24.8033 4.96042 21.8339 2.97685 19.0918C0.992283 16.3506 0 13.8133 0 11.48C0 7.98 1.20442 5.19167 3.61325 3.115C6.02108 1.03833 8.80976 0 11.9793 0C15.1488 0 17.9375 1.03833 20.3453 3.115C22.7541 5.19167 23.9585 7.98 23.9585 11.48C23.9585 13.8133 22.9668 16.3506 20.9832 19.0918C18.9986 21.8339 15.9973 24.8033 11.9793 28Z" fill="#1177FE"></path>
+                    </svg> 123 Street 456 House</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.412280441218!2d72.61209167408094!3d23.19996750968717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2971f1ff02b9%3A0x7b21758408c996c2!2sSayona%20heights!5e1!3m2!1sen!2sin!4v1755495128864!5m2!1sen!2sin" width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="client_testimonials about_client_testimonials bg-white">
+    <div class="container">
+        <h2 class="mt-5 mb-mt-5 mb-5 text-black text-center">Client <span class="clr_blue">Testimonials</span></h2>
+        <div class="row pt-4">
+            <div class="large-12 columns position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="47" viewBox="0 0 64 57" fill="none">
+                <path d="M59.7128 0.476074C62.7919 0.47624 64.7162 3.80947 63.1767 6.47607L35.4638 54.4761C33.9242 57.1424 30.0757 57.1423 28.536 54.4761L0.82315 6.47607C-0.71645 3.80941 1.20782 0.476074 4.28702 0.476074H59.7128Z" fill="#1177FE"/>
+                </svg>
+                <section class="content one" data-id="1"> 
+                 <figcaption class="p-5 text-center">
+                     <h3 class="mb-4 fonts_plus">It was a very good experience</h3>
+                     <p class="fonts_plus">Rishabh Travels made our family trip to Sasan Gir easy and comfortable. The driver was punctual and polite, and the car was in excellent condition. Highly recommended!</p> 
+                 </figcaption>
+                </section> 
+
+                <section class="content two" data-id="2"> 
+                 <figcaption class="p-5 text-center">
+                     <h3 class="mb-4 fonts_plus">It was a very good experience</h3>
+                     <p class="fonts_plus">Rishabh Travels made our family trip to Sasan Gir easy and comfortable. The driver was punctual and polite, and the car was in excellent condition. Highly recommended!</p> 
+                 </figcaption>
+                </section> 
+
+                <section class="content three" data-id="3"> 
+                 <figcaption class="p-5 text-center">
+                     <h3 class="mb-4 fonts_plus">It was a very good experience</h3>
+                     <p class="fonts_plus">Rishabh Travels made our family trip to Sasan Gir easy and comfortable. The driver was punctual and polite, and the car was in excellent condition. Highly recommended!</p> 
+                 </figcaption>
+                </section> 
+
+                <section class="content four" data-id="4"> 
+                <figcaption class="p-5 text-center">
+                     <h3 class="mb-4 fonts_plus">It was a very good experience</h3>
+                     <p class="fonts_plus">Rishabh Travels made our family trip to Sasan Gir easy and comfortable. The driver was punctual and polite, and the car was in excellent condition. Highly recommended!</p> 
+                 </figcaption>
+                </section> 
+
+                <section class="content five" data-id="5"> 
+                <figcaption class="p-5 text-center">
+                     <h3 class="mb-4 fonts_plus">It was a very good experience</h3>
+                     <p class="fonts_plus">Rishabh Travels made our family trip to Sasan Gir easy and comfortable. The driver was punctual and polite, and the car was in excellent condition. Highly recommended!</p> 
+                 </figcaption>
+                </section> 
+            
+                <div class="slider">
+                    <div data-index="1">
+                        <!-- <figcaption> -->
+                            <!-- <h3>It was a very good experience</h3> -->
+                        <!-- </figcaption> -->
+                    </div>
+                    <div data-index="2">
+                        
+                        <!-- <figcaption>Caption for image 2.  -->
+                        <!-- </figcaption> -->
+                    </div>
+                    <div data-index="3">
+                        <!-- <figcaption>Caption for image 3.  -->
+                        <!-- </figcaption> -->
+                    </div>
+                    <div data-index="4">
+                        <!-- <figcaption>Caption for image four.  -->
+                        <!-- </figcaption> -->
+                    </div>
+                    <div data-index="5">
+                        <!-- <figcaption>Caption for image five.  -->
+                        <!-- </figcaption> -->
+                    </div>
+                </div>
+                
+                <div class="slider-nav-thumbnails">
+                    <div>
+                        <img src="asset/image/client_profile_one.png" slide="slide_1"><br>
+                        <h6 class="fw-bold mt-2">Kavita S.</h6>
+                    </div>
+                    <div><img src="asset/image/client_profile_two.png" slide="slide_2"><br>
+                        <h6 class="fw-bold mt-2">Kavita S.</h6>
+                    </div>
+                    <div><img src="asset/image/client_profile_one.png" slide="slide_3"><br>
+                        <h6 class="fw-bold mt-2">Kavita S.</h6>
+                    </div>
+                    <div><img src="asset/image/client_profile_two.png" slide="slide_4"><br>
+                        <h6 class="fw-bold mt-2">Kavita S.</h6>
+                    </div>
+                    <div><img src="asset/image/client_profile_one.png" slide="slide_5"><br>
+                        <h6 class="fw-bold mt-2">Kavita S.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="faq my-5 pb-5">
+    <div class="container">
+        <h2 class="text-center text-black about_subhead mb-4">Frequently Ask Questions</h2>
+            <div class="row mt-5 pt-4">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item border-0 mb-4 p-3 fonts_plus ps-5">
+                            <h2 class="accordion-header fonts_plus" id="headingOne">
+                            <button class="fonts_plus cl7 accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               How can I book a cab?
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body cl8 pb-4">
+                                You can book through our website, WhatsApp, or by calling us directly anytime. You can book through our website, WhatsApp, or by calling us directly anytime.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4 p-3 fonts_plus ps-5">
+                            <h2 class="accordion-header fonts_plus" id="headingTwo">
+                            <button class="fonts_plus cl7 accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Do you provide outstation services?
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body cl8 pb-4">
+                                 You can book through our website, WhatsApp, or by calling us directly anytime. You can book through our website, WhatsApp, or by calling us directly anytime.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="accordion" id="accordionExampl">
+                        <div class="accordion-item border-0 mb-4 p-3 fonts_plus ps-5">
+                            <h2 class="accordion-header fonts_plus" id="headingFour">
+                            <button class="fonts_plus cl5 accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Do you provide airport transfers?
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExampl">
+                            <div class="accordion-body cl6 pb-4">
+                                You can book through our website, WhatsApp, or by calling us directly anytime. You can book through our website, WhatsApp, or by calling us directly anytime.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4 p-3 fonts_plus ps-5">
+                            <h2 class="accordion-header fonts_plus" id="headingFive">
+                            <button class="fonts_plus cl5 accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                               Can I book a cab for multiple days?
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExampl">
+                            <div class="accordion-body cl6">
+                                You can book through our website, WhatsApp, or by calling us directly anytime. You can book through our website, WhatsApp, or by calling us directly anytime.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4 p-3 fonts_plus ps-5">
+                            <h2 class="accordion-header fonts_plus" id="headingThree">
+                            <button class="fonts_plus cl5 accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                What safety measures are followed?
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExampl">
+                            <div class="accordion-body cl6">
+                               You can book through our website, WhatsApp, or by calling us directly anytime. You can book through our website, WhatsApp, or by calling us directly anytime.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+</div>
+
+<div class="footer_top bg-white">
+    <div class="container pt-5">
+        <div class="row text-white text-start">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <a href="#" class="mb-3">
+                    <img src="asset/image/logo.png" alt="">
+                </a>
+                <p class="mb-5 mt-4 fs-5">Empowering Your Projects, <br> Enhancing Your Success, Every Step <br> of the Way.</p>
+                <ul class="d-flex align-items-center head_top_social">
+                    <li class="me-4 ms-0">
+                        <a href="#">
+                            <img src="asset/image/facebook.png" alt="">
+                        </a>
+                    </li>
+                        <li class="me-4 ms-0">
+                        <a href="#">
+                            <img src="asset/image/linkedin.png" alt="">
+                        </a>
+                    </li>
+                    <li class="me-4 ms-0">
+                        <a href="#">
+                            <img src="asset/image/instagram.png" alt="">
+                        </a>
+                    </li>
+                    <li class="ms-0">
+                        <a href="#">
+                            <img src="asset/image/twitter.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">About Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 desk_blog">
+                <h5 class="mb-3">Blogs</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Airport Taxi</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Pet Friendly Cab</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Outstation Taxi</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Car Rental</a>
+                    </li>
+                </ul>
+            </div>
+             <div class="col-lg-3 col-md-6 mb-4 mob_types">
+                <h5 class="mb-3">Types</h5>
+                <ul class="footer_top_list">
+                    <li class="mb-2">
+                        <a href="">Car Rental</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Airport Taxi</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Local Sightseeing</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="">Innova</a>
+                    </li>
+                     <li class="mb-2">
+                        <a href="">Tempo Traveller</a>
+                    </li>
+                     <li class="mb-2">
+                        <a href="">Pet Friendly Cab</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 contacter contacter_desk">
+                <h5 class="mb-3">Reach Us</h5>
+                <ul class="reach_us">
+                    <li class="mb-3 d-flex align-items-center">
+                        <p>
+                            Office: Shayona Heights, C-107, Kh Rd, Nr. Sargasan Cross Road, Gandhinagar, Gujarat – 382015
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+    
+    </div>
+</div>
+
+<div class="copyrights pt-3 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-3 text-center">
+                <p class="mb-0 text-white">© 2025 Rishabh Travel. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script type="text/javascript" src="asset/js/popper.min.js"></script>
+        <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+        <script src="asset/js/custom.js"></script>
+    </body>
+</html>
